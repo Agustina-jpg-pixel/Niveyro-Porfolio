@@ -1,0 +1,378 @@
+@charset "utf-8!;";
+
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+@import url("https://use.typekit.net/ovh1rje.css");
+
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	cursor: url(img/cursorflor.svg), auto;
+
+}
+
+body {
+	background-color: #000000;
+	color: #ffffff;
+	display: flex;
+	flex-direction: column;
+	font-family: "flower-power";
+	box-sizing: border-box;
+	
+}
+
+
+.botonera {
+	align-items: center;
+	justify-content: space-around;
+	display: flex;
+	padding: 10px;
+}
+
+.botonera a {
+	font-family: "flower-power", sans-serif;
+	font-size: 15px;
+	transition: 0.2s;
+	border-radius: 9px;
+	padding: 10px;
+	color:#ffffff;
+}
+
+.botonera a:hover {
+	color: #F5F5F5;
+	background-color: #460CE9;
+	border-radius: 15px;
+}
+
+h1 {
+	font-family: "flower-power", sans-serif;
+	color: #ffffff;
+	font-size: 80px;
+	padding: 70px;
+
+}
+
+
+/*hasta aca header*/
+
+/*desde aca main*/
+
+section [id] {
+	width: 100px;
+	height: 100vh;
+}
+
+#Bienvenidos {
+	display: flex;
+	align-items: center;
+	height: 100vh;
+	justify-content: center;
+	text-align: center;
+	font-size: 70px;
+	
+	animation: cambiodecolor 4s infinite;
+}
+
+
+@keyframes cambiodecolor {
+	00% {
+		background-color: #BA007C;
+
+	}
+
+	50% {
+		background-color: #774DF4;
+	}
+
+	50% {
+		background-color: #460CE9;
+	}
+}
+
+h2 {
+	display: flex;
+	justify-content: space-between;
+	font-size: 120px;
+	padding: 100px;
+
+}
+
+.Presentación {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	padding: 200px 80px;
+	
+
+}
+
+.palabraderecha {
+	width: 50%;
+	padding: 20px;
+	box-sizing: border-box;
+	align-self: center;
+}
+
+.palabraderecha h3 {
+	font-size: 150px;
+	color:#460CE9;
+	padding: 40px;
+	max-width: 80%;
+	font-family: "itim";
+	animation: aparecerDesdeIzquierda 2s infinite;
+	
+}
+
+
+@keyframes aparecerDesdeIzquierda {
+	from {
+		transform: translateX(-100%);
+	}
+
+	to {
+		transform: translateX(0);
+
+	}
+}
+
+.parrafo {
+	width: 50%;
+	padding: 20px;
+	box-sizing: border-box;
+	align-self: center;
+}
+
+.parrafo p {
+	font-size: 30px;
+	font-family: "itim";
+	color: rgb(255, 255, 255);
+	padding: 40px;
+	max-width: 80%;
+	margin-left: 0px;
+	animation: cambiodecolor 4s infinite;
+	
+}
+
+
+@keyframes cambiodecolor {
+	0% {
+		background-color: #BA007C;
+
+	}
+
+	50% {
+		background-color: #460CE9;
+	}
+
+}
+
+.proyectosdestacados {
+
+	color: #ffffff;
+	font-size: 50px;
+	padding: 50px;
+	
+}
+
+.subtitulo {
+	font-size: 50px;
+	display:flex;
+	align-items: center;
+	justify-content: space-around;
+	color: #ffffff;
+	animation: aparecerDesdeIzquierda 1s infinite;
+}
+
+@keyframes aparecerDesdeIzquierda {
+	from {
+		transform: translateX(-100%);
+	}
+
+	to {
+		transform: translateX(0);
+
+	}
+}
+
+.proyectosdestacados img{
+	border: 3px solid #ffffff;
+	border-radius: 100px;
+	margin-left: 700px;
+	
+}
+
+
+
+.contacto :hover {
+background-color: #BA007C;
+color: #f5f5f5;
+}
+
+.contacto{
+	font-size: 80px;
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+	text-decoration: none;
+	color: #ffffff;
+	animation: aparecerDesdeIzquierda 1s infinite;
+	padding-left: 40px;
+	
+	
+}
+
+.misredes {
+	font-size: 40px;
+	padding: 20px;
+	
+	
+	
+}
+
+.misredes p{
+font-family: "itim";
+font-size: 20px;
+display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+
+.formulario{
+	font-family: "itim";
+	font-size: 21px;
+	display: flex;
+	padding: 80px;
+	justify-content:space-around;
+
+
+	
+}
+
+.formulario a{
+	color: #ffffff;
+	transition: 0.2s;
+	border-radius: 9px;
+	padding: 10px;
+	border: 1px solid #FFF;
+}
+
+.formulario a:hover {
+	color: #BA007C;
+	background-color: #ffffff;
+	
+}
+
+.proyectos{
+	padding: 80px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	gap: 40px;
+	
+}
+
+
+
+
+
+
+
+/*acerca de mi html*/
+
+
+
+
+
+
+
+
+#acercademi img {
+	border-radius: 50px;
+	margin-left: 100px;
+	border: 3px solid #774df4;
+
+}
+
+#acercademi:hover img {
+	transform: scale(1.1);
+}
+
+
+.flor {
+	display: flex;
+	justify-content: center;
+}
+
+.flor img {
+	width: 100px;
+	height: 100px;
+	animation: spin 3s linear infinite;
+	gap:50px;
+
+
+}
+
+@keyframes spin {
+	from {
+		transform: rotate(0deg);
+	}
+
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+
+.cajatexto {
+	font-family: "itim";
+	font-size: 20px;
+	background-color: #2d0d3f;
+	display: flex;
+	align-items:center;
+	padding: 50px;
+	
+
+}
+
+
+
+p {
+	max-width: 500px;
+	display: flex;
+	align-items: center;
+
+}
+
+
+#educación {
+	display: flex;
+	column-gap: 80px;
+	padding: 80px;
+	justify-content: center;
+	background-color: #2d0d3f;
+	font-family: "itim";
+
+
+}
+
+.habilidades {
+	display: flex;
+	Flex-direction: column;
+	gap: 10px;
+	font-size: 20px;
+	max-width: 400px;
+
+}
+
+.habilidades h4 {
+	margin-top: 20px;
+}
+
+
+
+/*galeria html*/
+
