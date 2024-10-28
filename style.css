@@ -69,20 +69,20 @@ section [id] {
 	height: 100vh;
 	justify-content: center;
 	text-align: center;
-	font-size: 70px;
-	
+	font-size: 80px;
+
 	animation: cambiodecolor 4s infinite;
 }
 
 
 @keyframes cambiodecolor {
 	00% {
-		background-color: #BA007C;
+		background-color: #000000;
 
 	}
 
 	50% {
-		background-color: #774DF4;
+		background-color: #BA007C;
 	}
 
 	50% {
@@ -166,11 +166,7 @@ h2 {
 
 .proyectos {
 	display:flex;
-	gap:50px;
-	flex-direction: column;
-	align-items: flex-start;
 
-	
 }
 
 h5 {
@@ -490,6 +486,7 @@ body span {
     color: #fff;
     padding: 20px;
     font-family: "itim";
+	
 }
 
 .primero p {
@@ -500,18 +497,13 @@ body span {
 .segundo {
     flex: 1;
     background-color: #460CE9;
-    border-radius: 10px;
-    padding: 30px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 200px;
     color: #fff;
+	height: 100vh;
+	
 }
 
-h1 {
-    font-family: "flower-power";
-    font-size: 36px;
-    text-align: center;
-    margin-bottom: 10px;
-}
+
 
 p {
     font-size: 16px;
@@ -525,7 +517,8 @@ p {
 .form-container {
     background-color: #673AB7;
     border-radius: 100px;
-    padding: 200px;
+    padding: 100px;
+	border: 2px solid #2D0D3F;
     
 }
 
