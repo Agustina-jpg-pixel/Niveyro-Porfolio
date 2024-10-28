@@ -16,40 +16,53 @@
             <a href="formulario.html"target="_blank">CONTACTO</a>
         </nav>
     </header>
-    <section class="contenedor-formulario">
-        <img src="img/corazon.svg" width="580" height="580px" alt="corazon">
-        <section class="pregunta-formulario">
-            <h2 class="titulo-form">¿QUÉRES TRABAJAR EN TU PRÓXIMO PROYECTO JUNTOS?</h2>
-        </section>
-        <section class="zona-formulario">
-            <h3 class="h3-formulario">¡LLEGASTE!</h3>
-            <h4 class="subtitulo-form">Dejá tus consultas en el siguiente formulario y te contactare para una reunión:</h4>
-            <form method="post" action="NIVEYROAGUSTINA15@gmail.com?subject='Email enviado desde el formulario'" target="_blank" >
-                
-            </form>
-                <div class="items-formulario">
-                    <div class="columna-izq-form">
-                        <label for="apellido_nombre">APELLIDO Y NOMBRE</label>
-                        <input type="text" name="apellido_nombre" id="apellido_nombre" maxlenght="50" placeholder="Escribí tu nombre completo" required>
-                        <label for="email">CORREO ELECTRÓNICO</label>
-                        <input type="email" name="email" id="email" maxlenght="50" placeholder="Escribí un correo electrónico" required>
+    <div class="container">
+        <div class="left-panel">
+            <h2>¿QUERÉS TRABAJAR EN TU PRÓXIMO PROYECTO JUNTOS?</h2>
+            
+        <div class="right-panel">
+            <h1>¡ESCRIBIME!</h1>
+            <p>Dejá tus consultas en el siguiente formulario y te contactare para una reunión:</p>
+            <div class="form-container">
+                <form>
+                    <div class="form-group">
+                        <label for="nombre">Apellido y nombre:</label>
+                        <input type="text" id="nombre" placeholder="Escriba su nombre completo">
                     </div>
-                    <div class="columna-der-form">
-                        <label for="proyecto_empresa">PROYECTO O EMPRESA</label>
-                        <input type="text" name="proyecto_empresa" id="proyecto_empresa" maxlenght="30" placeholder="Nombre del proyecto o empresa" required>
-                        <label for="telefono">TELÉFONO</label>
-                        <input type="tel" name="telefono" id="telefono" placeholder="(011) ____ ____">
+                    <div class="form-group">
+                        <label for="empresa">Proyecto o empresa:</label>
+                        <input type="text" id="empresa" placeholder="Nombre del proyecto o empresa">
                     </div>
-                </div>
-                    <div class="mensaje-form">
-                        <label for="mensaje">MENSAJE</label>
-                        <textarea name="mensaje" id="mensaje">Escribí las dudas o consultas</textarea>
+                    <div class="form-group">
+                        <label for="pais">País/provincia:</label>
+                        <input type="text" id="pais" placeholder="Nombre país/provincia">
                     </div>
-                    <div class="boton-enviar">
-                        <input type="submit" class="submit">
+                    <div class="form-group">
+                        <label for="correo">Correo electrónico:</label>
+                        <input type="email" id="correo" placeholder="Escriba su correo electrónico">
                     </div>
-            </form>
-        </section>
+                    <div class="form-group">
+                        <label for="telefono">Teléfono:</label>
+                        <input type="tel" id="telefono" placeholder="(011)">
+                    </div>
+                    <div class="form-group">
+                        <label for="localidad">Localidad:</label>
+                        <input type="text" id="localidad" placeholder="Nombre localidad">
+                    </div>
+                    <div class="form-group">
+                        <label for="mensaje">Mensaje:</label>
+                        <textarea id="mensaje" rows="4" placeholder="Escriba las dudas o consultas"></textarea>
+                    </div>
+                    <div class="form-buttons">
+                        <button type="reset" class="btn reset">BORRAR</button>
+                        <button type="submit" class="btn submit">ENVIAR</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
         <footer>
             <div>
                 <p>Todos los derechos reservados. Copyright© 2024
@@ -67,6 +80,7 @@
             <a href="nstagram.com/ojocr_eativo/?igsh=MWVlYXFpdXhxdGxrcA%3D%3D" target="_blank">
                 <img class="redes" src="img/icono instagram.svg-" wight="60px" height="60px" alt="instagram-icono">
             </a>
+            <a href="#top"><span>VOLVER ARRIBA</span></a>
         </footer>
 <body>
     
