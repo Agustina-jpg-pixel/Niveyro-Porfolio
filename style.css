@@ -716,13 +716,11 @@ button:hover {
 /*galeria*/
 
 .principio {
-	font-size: 30px;
+	font-size: 20px;
 	text-align: center;
 	justify-content: center;
 	padding: 15px;
 }
-
-
 
 
 .project {
@@ -730,22 +728,44 @@ button:hover {
 
 }
 
+.project h2{
+font-size: 20px;
+color: #460CE9;
+
+
+}
+
+.project h4{
+	font-size: 20px;
+	font-family: "itim";
+
+	}
+
+.project p {
+font-size: 18px;
+font-family: "itim";
+}
+
+
 .gallery {
     display: flex; 
     flex-direction: row; 
     overflow-x: auto; 
     gap: 10px; 
+	padding:20px;
 	
 }
 
 .gallery-image {
-    width: 200px; 
-    height: 150px; 
+    width: 400px; 
+    height: 450px; 
     object-fit: cover; 
     cursor: pointer;
     border: 2px solid #BA007C;
     border-radius: 5px;
     transition: transform 0.2s;
+	gap:30px;
+	
 }
 
 .gallery-image:hover {
