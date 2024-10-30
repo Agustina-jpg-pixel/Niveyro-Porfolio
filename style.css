@@ -236,30 +236,16 @@ h5 {
 }
 
 @keyframes slide {
-	0% {
-		transform: translateX(0);
-	}
-
-	33.33% {
-		transform: translateX(0);
-	}
-
-	36.66% {
-		transform: translateX(-100%);
-	}
-
-	69.99% {
-		transform: translateX(-100%);
-	}
-
-	73.32% {
-		transform: translateX(-200%);
-	}
-
-	100% {
-		transform: translateX(-200%);
-	}
+    0% { transform: translateX(0); }
+    20% { transform: translateX(0); } 
+    25% { transform: translateX(-100%); }
+    45% { transform: translateX(-100%); } 
+    50% { transform: translateX(-200%); }
+    70% { transform: translateX(-200%); } 
+    75% { transform: translateX(-300%); }
+    100% { transform: translateX(-300%); } 
 }
+
 
 .imagen {
 	min-width: 100%;
@@ -269,8 +255,6 @@ h5 {
 	width: 100%;
 	display: block;
 	border-radius: 80px;
-
-
 }
 
 input[type="radio"] {
