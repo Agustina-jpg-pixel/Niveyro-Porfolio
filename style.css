@@ -725,6 +725,7 @@ button:hover {
 
 .project {
     margin-bottom: 20px; /
+	gap:20px;
 
 }
 
@@ -732,13 +733,12 @@ button:hover {
 font-size: 20px;
 color: #460CE9;
 
-
 }
 
 .project h4{
 	font-size: 20px;
 	font-family: "itim";
-
+	
 	}
 
 .project p {
@@ -757,8 +757,8 @@ font-family: "itim";
 }
 
 .gallery-image {
-    width: 400px; 
-    height: 450px; 
+    width: 300px; 
+    height: 350px; 
     object-fit: cover; 
     cursor: pointer;
     border: 2px solid #BA007C;
