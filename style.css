@@ -25,26 +25,28 @@ body {
 }
 
 
-.botonera {
+.botonera  {
 	align-items: center;
 	justify-content: space-around;
 	display: flex;
 	padding: 10px;
 }
 
-.botonera a {
+.botones a {
 	font-family: "flower-power", sans-serif;
 	font-size: 15px;
 	transition: 0.2s;
 	border-radius: 9px;
-	padding: 10px;
+	padding: 20px;
 	color: #ffffff;
+	justify-content: space-around;
 }
 
-.botonera a:hover {
+.botones a:hover {
 	color: #F5F5F5;
 	background-color: #460CE9;
 	border-radius: 15px;
+
 }
 
 
@@ -84,6 +86,8 @@ section [id] {
 	display: flex;
 	align-items: center;
 	animation: spin 15s linear infinite;
+	
+
 
 }
 
@@ -102,7 +106,7 @@ section [id] {
 .presentación {
 	display: flex;
 	justify-content: space-between;
-	padding: 200px 80px;
+	padding: 100px 80px;
 	flex-direction: column;
 
 
@@ -141,11 +145,11 @@ section [id] {
 
 
 
-.parrafo {
+.cuadro {
 	padding: 20px;
 }
 
-.parrafo p {
+.cuadro p {
 	font-size: 36px;
 	font-family: "itim";
 	color: rgb(255, 255, 255);
@@ -163,6 +167,8 @@ section [id] {
 
 .zonaflor img {
 	animation: spin 15s linear infinite;
+	
+
 
 }
 
@@ -192,6 +198,7 @@ section [id] {
 .proyectos {
 	display: flex;
 
+
 }
 
 h5 {
@@ -217,7 +224,7 @@ h5 {
 	gap: 50px;
 	background-color: #460CE9;
 	border-radius: 30px;
-	padding: 50px;
+	padding: 30px;
 
 }
 
@@ -245,8 +252,7 @@ h5 {
     45% { transform: translateX(-100%); } 
     50% { transform: translateX(-200%); }
     70% { transform: translateX(-200%); } 
-    75% { transform: translateX(-300%); }
-    100% { transform: translateX(-300%); } 
+
 }
 
 
@@ -287,8 +293,8 @@ input[type="radio"] {
 	padding: 15px;
 	border-radius: 5px;
 	position: absolute;
-	top:2119px;
-	right:412px;
+	top:1984px;
+	right:415px;
 }
 
 .ver-mas:hover {
@@ -617,8 +623,6 @@ body span {
 }
 
 
-
-
 .form-container {
 	background-color: #673AB7;
 	border-radius: 100px;
@@ -696,6 +700,14 @@ button {
 	justify-content: space-between;
 }
 
+
+.flores{
+	display: flex;
+
+	flex-direction: column;
+}
+
+
 button:hover {
 
 	color: #BA007C;
@@ -749,7 +761,7 @@ font-family: "itim";
 
 .gallery-image {
     width: 300px; 
-    height: 350px; 
+    height: 300px; 
     object-fit: cover; 
     cursor: pointer;
     border: 2px solid #BA007C;
