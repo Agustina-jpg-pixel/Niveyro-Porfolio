@@ -149,7 +149,7 @@ section [id] {
 	padding: 20px;
 }
 
-.cuadro p {
+.cuadro  {
 	font-size: 36px;
 	font-family: "itim";
 	color: rgb(255, 255, 255);
@@ -158,6 +158,13 @@ section [id] {
 	border-radius: 15px;
 
 }
+
+
+.cuadro ul{
+display: flex;
+gap:10px;
+}
+
 
 .zonaflor {
 	display: flex;
@@ -534,8 +541,7 @@ footer {
 
 }
 
-.song {
-	width: 100%;
+.caja2 {
 	font-family: "itim";
 	padding: 20px;
 	border-radius: 50px;
@@ -575,6 +581,7 @@ audio::-webkit-media-controls-panel {
 	color: #fff;
 }
 
+
 .caja2 {
 	display: flex;
 	flex-direction: column;
@@ -597,7 +604,6 @@ body span {
 /*formulario*/
 
 .primero {
-	flex: 1;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -611,14 +617,24 @@ body span {
 .primero p {
 	font-size: 20px;
 	margin-bottom: 20px;
+	max-width: 300px;
+	
 }
 
-.segundo {
-	flex: 1;
-	background-color: #460CE9;
-	padding: 200px;
+.segundo h1 {
+	padding:50px;
 	color: #fff;
-	height: 100vh;
+	
+
+}
+
+
+.segundo p{
+	font-family: "itim";
+	font-size: 23px;
+	display: flex;
+	align-items: center;
+	justify-content:center;
 
 }
 
@@ -626,7 +642,8 @@ body span {
 .form-container {
 	background-color: #673AB7;
 	border-radius: 100px;
-	padding: 100px;
+	margin: 100px;
+	padding: 50px;
 	border: 2px solid #2D0D3F;
 
 }
@@ -660,7 +677,6 @@ textarea {
 	border: none;
 	border-radius: 5px;
 	font-size: 12px;
-	margin-bottom: 10px;
 	font-family: "itim";
 	border: 2px solid #460CE9;
 }
@@ -703,7 +719,6 @@ button {
 
 .flores{
 	display: flex;
-
 	flex-direction: column;
 }
 
@@ -712,6 +727,53 @@ button:hover {
 
 	color: #BA007C;
 }
+
+.flores {
+    position: relative;
+}
+
+.flores {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.flor1 {
+    top: 0;
+    left: 0;
+    animation: rotate 10s linear infinite;
+}
+
+.flor2{
+
+    top: 100px;
+    left: 50px;
+    animation: rotate 8s linear infinite reverse;
+}
+
+.flor3 {
+    top: 200px;
+    left: 100px;
+    animation: rotate 12s linear infinite;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+
+
+
+
+
+
 
 /*fin de formulario/
 
@@ -727,7 +789,7 @@ button:hover {
 
 
 .project {
-    margin-bottom: 20px; /
+    margin-bottom: 20px; 
 	gap:20px;
 
 }
@@ -735,6 +797,7 @@ button:hover {
 .project h2{
 font-size: 20px;
 color: #460CE9;
+
 
 }
 
