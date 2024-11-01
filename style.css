@@ -290,7 +290,7 @@ input[type="radio"] {
 	padding: 15px;
 	border-radius: 5px;
 	position: absolute;
-	top:2025px;
+	top:1969px;
 	right:432px;
 }
 
@@ -329,8 +329,8 @@ input[type="radio"] {
 
 #redes-sociales {
 	display: flex;
-	align-items: center;
 	justify-content:center;
+	align-items: flex-end;
 	gap: 15px;
 
 }
@@ -371,13 +371,15 @@ input[type="radio"] {
 }
 
 
-footer {
+.footer  {
 	font-family: "itim";
-	font-size: 15px;
+	font-size: 13px;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 }
+
+
 
 /*fin de index/
 
@@ -450,13 +452,21 @@ footer {
 	background-color: #460CE9;
 	border: 2px solid #ffffff;
 	flex-direction: column;
-	justify-content: center;
+	width: 100%;
+	
 	
 }
 
+.contenedor-violeta{
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 80px;
+}
 
 .caja2 h4 {
 	margin-bottom: 8px;
+	
 }
 
 
@@ -524,7 +534,7 @@ footer {
 #educación {
 	display: flex;
 	column-gap: 80px;
-	padding: 100px;
+	padding: 30px;
 	justify-content: center;
 	font-family: "itim";
 	width: 100%;
@@ -554,151 +564,162 @@ footer {
 }
 
 
-
-
-body span {
-	color: #BA007C;
-}
-
 /*fin acerca de mi /
 
 
 /*formulario*/
 
-.primero {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	color: #fff;
+.contenedor {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1000px;
+    margin: 0 auto;
+	background-color: #460CE9;
 	padding: 20px;
-	font-family: "itim";
+	border-radius: 10px;
 
-}
-
-.primero p {
-	font-size: 20px;
-	margin-bottom: 20px;
-	max-width: 300px;
 	
 }
 
-.segundo h1 {
-	padding:50px;
-	color: #fff;
-	
-
+.izquierda {
+    flex: 1;
+    text-align: center;
 }
 
-
-.segundo p{
+.izquierda h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
 	font-family: "itim";
-	font-size: 23px;
-	display: flex;
-	align-items: center;
-	justify-content:center;
-
-}
-
-
-.form-container {
-	background-color: #673AB7;
-	border-radius: 100px;
-	margin: 100px;
 	padding: 50px;
-	border: 2px solid #2D0D3F;
-
-}
-
-form {
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-	gap: 15px;
-}
-
-.form-group {
-	display: flex;
-	flex-direction: column;
-}
-
-.message-group {
-	grid-column: 1 / 3;
-
-}
-
-label {
-	color: #ffffff;
-	margin-bottom: 3px;
-	font-family: "itim";
-
-}
-
-input,
-textarea {
-	padding: 10px;
-	border: none;
-	border-radius: 5px;
-	font-size: 12px;
-	font-family: "itim";
-	border: 2px solid #460CE9;
-}
-
-input::placeholder,
-textarea::placeholder {
-	color: #bbb;
-}
-
-textarea {
-	resize: none;
-	height: 100px;
-}
-
-button {
-	padding: 10px;
-	border: none;
-	border-radius: 5px;
-	font-size: 18px;
-	cursor: pointer;
-	font-family: "itim";
-}
-
-.reset-btn {
-	background-color: #2D0D3F;
-	color: #fff;
-}
-
-.submit-btn {
-	background-color: #2d0d3f;
-	color: #fff;
-}
-
-.button-group {
-	grid-column: 1 / 3;
-	display: flex;
-	justify-content: space-between;
-}
-
-
-.flores{
-	display: flex;
-	flex-direction: column;
-}
-
-
-button:hover {
-
-	color: #BA007C;
 }
 
 .flores {
-    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+	flex-direction: column;
 }
 
-.flores {
+.flor {
     width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    position: absolute;
+    height: auto;
+}
+
+.derecha {
+    flex: 1.5;
+    background-color: #BA007C; 
+    padding: 40px;
+    border-radius: 15px;
+	
+
+}
+
+.derecha h1 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 20px;
+	
+}
+
+.derecha p {
+    text-align: center;
+    margin-bottom: 20px;
+	font-family:"itim";
+
+}
+
+.formulario2 {
+    display: flex;
+	flex-direction: column;
+	align-items: stretch;
+    gap: 15px;
+	border-radius: 20px;
+	
+
+
+}
+
+.campo {
+    display: flex;
+	align-items: stretch;
+    flex-direction: column;
+	
+	
+
+
+	
+}
+
+.campo label {
+    margin-bottom: 2px;
+	font-family: "itim";
+	
+}
+
+.campo input, .campo textarea {
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 15px;
+	font-family: "itim";
+	border: 1px solid #460CE9;
+	max-width: 600px;
+	
+	
+}
+
+
+
+.obligatorio {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+.nota-obligatorios {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.botones2 {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.boton {
+    background-color: #000000;
+    color: white;
+    padding: 10px;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+	font-family: "itim";
+
+}
+
+.boton:hover {
+    background-color: #460CE9;
+}
+
+.borrar {
+    background-color: #000;
+}
+
+.borrar:hover {
+    background-color: #460CE9;
+}
+
+.flores {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.flor {
+    width: 100px;
+    height: auto;
 }
 
 .flor1 {
@@ -714,6 +735,7 @@ button:hover {
     left: 50px;
     animation: rotate 8s linear infinite reverse;
 	padding: 20px;
+	
 }
 
 .flor3 {
@@ -733,7 +755,6 @@ button:hover {
 }
 
 
-
 /*fin de formulario/
 
 
@@ -742,15 +763,15 @@ button:hover {
 .principio {
 	font-size: 20px;
 	text-align: center;
-	justify-content: center;
 	padding: 30px;
 	background-color: #460CE9;
+	
 }
 
 
 .project {
     margin-bottom: 20px; 
-	gap:20px;
+
 
 }
 
@@ -759,8 +780,6 @@ font-size: 20px;
 color: #460CE9;
 display:flex;
 justify-content: center;
-
-
 
 
 }
@@ -855,3 +874,7 @@ justify-content: center;
 .next {
     right: 20px;
 }
+
+
+
+/*fin de galeria/

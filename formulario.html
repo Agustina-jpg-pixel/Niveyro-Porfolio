@@ -21,55 +21,46 @@
         </nav>
     </header>
     <main>
-        <div class="container">
-            <div class="primero">
-                <p>¿QUERÉS TRABAJAR EN TU PRÓXIMO PROYECTO JUNTOS?</p>
+        <div class="contenedor">
+            <div class="izquierda">
+                <h2>¿Querés trabajar en tu próximo proyecto juntos?</h2>
+                <div class="flores">
+                    <img src="img/florr11.png" alt="Flor roja" class="flor1" height="200px" width="200px">
+                    <img src="img/flor12.png" alt="Flor2" class="flor2" height="200px" width="200px">
+                    <img src="img/flor13.png" alt="Flor3" class="flor2" height="200px" width="200px">
+                </div>
             </div>
-            <div class="flores">
-                <img src="img/flor12formulario.png" class= "flor1" height="200px" width="200px">
-                <img src="img/flor13.png" class="flor2" height="200px" width="200px">
-                <img src="img/florr11.png" class="flor3" height="200px" width="200px">
-            </div>
-            <div class="segundo">
+            <div class="derecha">
                 <h1>¡ESCRIBIME!</h1>
-                <p>Dejá tus consultas en el siguiente formulario y te contactare para una reunión:</p>
-                
-                <div class="form-container">
-                    <action="niveyroagustina15@gmail.com" subject="Enviado desde el portfolio" target="_blank enctype=multipart/gorm-data"></action>
-                    <form action="#" method="post">
-                        <div class="form-group">
-                            <label for="name">Apellido y nombre:</label>
-                            <input type="text" id="name" placeholder="Escribí tu nombre completo">
-                        </div>
-                        <div class="form-group">
-                            <label for="project">Proyecto o empresa:</label>
-                            <input type="text" id="project" placeholder="Nombre del proyecto o empresa">
-                        </div>
-                        <div class="form-group">
-                            <label for="country">País/provincia:</label>
-                            <input type="text" id="country" placeholder="Nombre país/provincia">
-                        </div>
-                        <div class="form-group">
-                            <label for="email">Correo electrónico:</label>
-                            <input type="email" id="email" placeholder="Escribí un correo electrónico">
-                        </div>
-                        <div class="form-group">
-                            <label for="phone">Teléfono:</label>
-                            <input type="text" id="phone" placeholder="(011)">
-                        </div>
-                        <div class="form-group">
-                            <label for="location">Localidad:</label>
-                            <input type="text" id="location" placeholder="Nombre localidad">
-                        </div>
-                        <div class="form-group message-group">
-                            <label for="message">Mensaje:</label>
-                            <textarea id="message" placeholder="Escribí las dudas o consultas"></textarea>
-                        </div>
-                        <div class="button-group">
-                            <button type="reset" class="reset-btn">BORRAR</button>
-                            <button type="submit" class="submit-btn">ENVIAR</button>
-                        </div>
-                    </form>
+                <p>Dejá tus consultas en el siguiente formulario y te contactaré para una reunión:</p>
+                <form class="formulario2">
+                    <div class="campo">
+                        <label for="name">Apellido y nombre: <span class="obligatorio">*</span></label>
+                        <input type="text" id="" name="name" placeholder="Escribí tu nombre completo" required>
+                    </div>
+                    <div class="campo">
+                        <label for="empresa">Proyecto o empresa:</label>
+                        <input type="text" id="empresa" name="empresa" placeholder="Nombre del proyecto o empresa">
+                    </div>
+                    <div class="campo">
+                        <label for="correo">Correo electrónico: <span class="obligatorio">*</span></label>
+                        <input type="email" id="correo" name="correo" placeholder="Escribí un correo electrónico" required>
+                    </div>
+                    <div class="campo">
+                        <label for="telefono">Teléfono: <span class="obligatorio">*</span></label>
+                        <input type="tel" id="telefono" name="telefono" placeholder="(011)" required>
+                    </div>
+                    <div class="campo">
+                        <label for="mensaje">Mensaje: <span class="obligatorio">*</span></label>
+                        <textarea id="mensaje" name="mensaje" placeholder="Escribí las dudas o consultas" required></textarea>
+                    </div>
+                    <p class="nota-obligatorios">Los campos marcados con <span class="obligatorio">*</span> son obligatorios.</p>
+                    <div class="botones2">
+                        <button type="reset" class="boton borrar">BORRAR</button>
+                        <button type="submit" class="boton enviar">ENVIAR</button>
+                    </div>
+                </form>
+            </div>
                 </div>
             </div>
 
@@ -84,16 +75,15 @@
             <li>
                 <ul id="redes-sociales">
                     <a href="https://www.linkedin.com/in/agustina-florencia-niveyro-85b6b5267/" target="_blank">
-                        <img class="redes" src="img/linkedinn.svg" wight="60px" height="60px" alt="linkedin-icono">
+                        <img class="redes" src="img/linkedinn.png" wight="50px" height="50px" alt="linkedin-icono">
                     </a>
-
+                    
                     <a href="https://www.behance.net/agustinaniveyro" target="_blank">
-                        <img class="redes" src="img/behancee.svg" wight="60px" height="60px" alt="behance-icono">
+                        <img class="redes" src="img/behancee.png" wight="50px" height="50px" alt="behance-icono">
                     </a>
-
+            
                     <a href="nstagram.com/ojocr_eativo/?igsh=MWVlYXFpdXhxdGxrcA%3D%3D" target="_blank">
-                        <img class="redes" src="img/icono instagram.svg" wight="60px" height="60px"
-                            alt="instagram-icono">
+                        <img class="redes" src="img/icono instagram.png" wight="50px" height="50px" alt="instagram-icono">
                     </a>
                 </ul>
             </li>
