@@ -7,8 +7,8 @@
 * {
 	margin: 0;
 	padding: 0;
-	list-style: none;
 	text-decoration: none;
+	list-style: none;
 	box-sizing: border-box;
 	cursor: url(img/cursorr.svg), auto;
 
@@ -26,7 +26,7 @@ body {
 
 .botonera  {
 	align-items: center;
-	justify-content: space-around;
+	justify-content: space-between;
 	display: flex;
 	padding: 10px;
 }
@@ -112,6 +112,7 @@ body {
 	display: flex;
 	align-items: center;
 	height: 100vh;
+	
 }
 
 .palabraderecha h3 {
@@ -327,18 +328,6 @@ input[type="radio"] {
 
 }
 
-#redes-sociales {
-	display: flex;
-	justify-content:center;
-	align-items: flex-end;
-	gap: 15px;
-
-}
-
-.redes:hover {
-	transform: scale(1.1);
-	overflow: hidden;
-}
 
 
 
@@ -371,13 +360,40 @@ input[type="radio"] {
 }
 
 
-.footer  {
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 	font-family: "itim";
-	font-size: 13px;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
+	gap: 100px;	
 }
+
+
+
+#redes-sociales {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+	
+	
+}
+
+
+.redes:hover {
+	transform: scale(1.1);
+	overflow: hidden;
+	
+}
+
+
+.right {
+    text-align: right;
+	font-family: "itim";
+	
+}
+
+
 
 
 
@@ -473,10 +489,7 @@ padding: 80px;
 
 .caja2 {
 	display: flex;
-	flex-direction: column;
 	align-items: center;
-	width: 100%;
-	justify-content: center;
 
 }
 
@@ -545,7 +558,6 @@ padding: 80px;
 .habilidades {
 	Flex-direction: column;
 	justify-content: center;
-	gap: 10px;
 	font-size: 20px;
 	background: #460CE9;
 	border: 2px solid #ffffff;
@@ -559,7 +571,8 @@ padding: 80px;
 
 .habilidades h4 {
 	margin-top: 20px;
-	color: #000000;
+	color: #ffffff;
+	
 
 }
 
@@ -576,7 +589,7 @@ padding: 80px;
     max-width: 1000px;
     margin: 0 auto;
 	background-color: #460CE9;
-	padding: 20px;
+	padding: 40px;
 	border-radius: 10px;
 
 	
@@ -592,6 +605,7 @@ padding: 80px;
     margin-bottom: 20px;
 	font-family: "itim";
 	padding: 50px;
+
 }
 
 .flores {
@@ -610,8 +624,10 @@ padding: 80px;
 .derecha {
     flex: 1.5;
     background-color: #BA007C; 
+	border: 2px solid #ffffff;
     padding: 40px;
     border-radius: 15px;
+
 	
 
 }
@@ -663,9 +679,8 @@ padding: 80px;
     border-radius: 5px;
     font-size: 15px;
 	font-family: "itim";
-	border: 1px solid #460CE9;
-	max-width: 600px;
-	
+	border: 2px solid #460CE9;
+	width: 500px;
 	
 }
 
@@ -766,11 +781,13 @@ padding: 80px;
 	padding: 30px;
 	background-color: #460CE9;
 	
+	
 }
 
 
 .project {
     margin-bottom: 20px; 
+	margin-top: 50px;
 
 
 }
@@ -782,6 +799,7 @@ display:flex;
 justify-content: center;
 
 
+
 }
 
 .project h4{
@@ -790,9 +808,6 @@ justify-content: center;
 	color: #BA007C;
 	display: flex;
 	justify-content: center;
-	
-	
-	
 	}
 
 .project p {
@@ -877,4 +892,16 @@ justify-content: center;
 
 
 
-/*fin de galeria/
+/*fin de galeria*/
+
+@media (min-width: 600x) {
+    .botones {
+        display: flex;
+        justify-content: space-between; 
+        background-color: #000000;
+        flex-direction: column;
+        height: 100vh;
+        width: 100%;
+        justify-content: center;
+    }
+}
