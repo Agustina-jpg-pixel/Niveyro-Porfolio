@@ -359,15 +359,12 @@ input[type="radio"] {
 
 }
 
-
-
-.footer-content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-	font-family: "itim";
-	gap: 100px;	
-}
+.footer {
+	display: flex;
+		padding: 10px;
+		font-family: "itim";
+		}
+	
 
 
 
@@ -392,9 +389,6 @@ input[type="radio"] {
 	font-family: "itim";
 	
 }
-
-
-
 
 
 /*fin de index/
@@ -608,7 +602,7 @@ padding: 80px;
 
 }
 
-.flores {
+.floress {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -616,10 +610,49 @@ padding: 80px;
 	flex-direction: column;
 }
 
-.flor {
+.florecitas {
     width: 100px;
     height: auto;
 }
+
+.floress {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.florr {
+    width: 100px;
+    height: auto;
+}
+
+.flor1 {
+    top: 0;
+    left: 0;
+    animation: rotate 10s linear infinite;
+	padding: 20px;
+}
+
+.flor2{
+
+    top: 100px;
+    left: 50px;
+    animation: rotate 8s linear infinite reverse;
+	padding: 20px;
+	
+}
+
+.flor3 {
+    top: 200px;
+    left: 100px;
+    animation: rotate 12s linear infinite;
+	padding: 20px;
+}
+
+
+
+
 
 .derecha {
     flex: 1.5;
@@ -725,40 +758,7 @@ padding: 80px;
     background-color: #460CE9;
 }
 
-.flores {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-}
 
-.flor {
-    width: 100px;
-    height: auto;
-}
-
-.flor1 {
-    top: 0;
-    left: 0;
-    animation: rotate 10s linear infinite;
-	padding: 20px;
-}
-
-.flor2{
-
-    top: 100px;
-    left: 50px;
-    animation: rotate 8s linear infinite reverse;
-	padding: 20px;
-	
-}
-
-.flor3 {
-    top: 200px;
-    left: 100px;
-    animation: rotate 12s linear infinite;
-	padding: 20px;
-}
 
 @keyframes rotate {
     0% {
@@ -903,8 +903,18 @@ justify-content: center;
 				padding: 10px;
 				height: 100vh;
 			width: 100%;
+			flex-direction: column;
+        justify-content: space-around;
 			}
 			
+			.botones a {
+				font-size: 20px;
+				transition: 0.2s;
+				border-radius: 9px;
+				padding: 20px;
+				color: #ffffff;
+				justify-content: space-around;
+			}
 			
 			.botones {   
 				display: flex;
