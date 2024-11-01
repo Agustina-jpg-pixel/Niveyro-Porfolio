@@ -894,14 +894,18 @@ justify-content: center;
 
 /*fin de galeria*/
 
-@media (min-width: 600x) {
-    .botones {
-        display: flex;
-        justify-content: space-between; 
-        background-color: #000000;
-        flex-direction: column;
-        height: 100vh;
-        width: 100%;
-        justify-content: center;
-    }
-}
+@media (max-width: 600px) 
+
+	.botonera {
+		display: flex
+		padding: 10px;
+		height: 100vh;
+    width: 100%;
+	}
+	
+	
+	.botones {   
+		display: flex;
+justify-content: space-around;
+		flex-direction: column;
+	}
