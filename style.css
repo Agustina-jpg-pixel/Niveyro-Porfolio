@@ -796,8 +796,6 @@ justify-content: center;
 }
 
 .gallery-image {
-    width: 400px; 
-    height: 300x; 
     object-fit: cover; 
     cursor: pointer;
     border: 2px solid #BA007C;
